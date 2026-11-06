@@ -1,0 +1,18 @@
+# Build output
+out/
+*.class
+
+# IntelliJ per-user files
+.idea/workspace.xml
+.idea/shelf/
+.idea/usage.statistics.xml
+
+# JVM crash / replay logs
+replay_pid*.log
+hs_err_pid*.log
+
+# macOS
+.DS_Store
+
+# Old local IDE/crash files
+misc/
