@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="docs/images/banner.jpg" alt="Evil Hangman: a hanged figure silhouetted against a full moon" width="100%" />
-</p>
-
-<p align="center">
-  <em>A game of Hangman that does not want you to win.</em>
+  <img src="docs/images/hero.svg" alt="Evil Hangman: a hanged figure sways against a full moon. A game of Hangman that does not want you to win. Save him, if you can." width="100%" />
 </p>
 
 <p align="center">
@@ -26,7 +22,9 @@
   <img src="docs/images/demo.gif" alt="A round of Evil Hangman: candles go out one by one until the figure is hanged" width="640" />
 </p>
 
-<br />
+<p align="center">
+  <img src="docs/images/candles.svg" alt="" width="560" />
+</p>
 
 ## Play it
 
@@ -70,11 +68,42 @@ Guess the word one letter at a time, by typing or by clicking the keys. Each wro
   </tr>
 </table>
 
-- 🕯️ **Candles, not hearts.** Every miss snuffs one out with a red ember and a curl of smoke. On the last one you'll hear a heartbeat.
-- 🌕 **A living scene.** Clouds pass over the moon, fog drifts, the light flickers and the film grain crawls. The body sways on the rope and jolts with every mistake.
-- 🔊 **Sound, synthesised from scratch.** A low drone and wind, a thud for each miss, a cracked bell for each hit, and a toll when it's over. No audio files, and you can turn it off.
-- ⚖️ **Four levels of mercy.** Merciful (12 candles), Grim (10), Cruel (8) or Merciless (6), with words from 4 to 10 letters long.
-- 📜 **8,000+ words**, filtered from a word-frequency list. A word that was the answer won't come back until the game has used every other word of that length.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Candles, not hearts</h4>
+      Every miss snuffs one out with a red ember and a curl of smoke. On the last one you'll hear a heartbeat.
+    </td>
+    <td width="50%" valign="top">
+      <h4>A living scene</h4>
+      Clouds pass over the moon, fog drifts, the light flickers and the film grain crawls. The body sways on the rope and jolts with every mistake.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h4>Sound, synthesised from scratch</h4>
+      A low drone and wind, a thud for each miss, a cracked bell for each hit, and a toll when it's over. No audio files, and you can turn it off.
+    </td>
+    <td valign="top">
+      <h4>Four levels of mercy</h4>
+      <i>Merciful</i> (12 candles), <i>Grim</i> (10), <i>Cruel</i> (8) or <i>Merciless</i> (6), with words from 4 to 10 letters long.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h4>8,000+ words</h4>
+      Filtered from a word-frequency list. A word that was the answer won't come back until every other word of that length has been used.
+    </td>
+    <td valign="top">
+      <h4>No spoilers inside</h4>
+      The game never explains itself. You'll have to work out what it's doing on your own… or open the section below.
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/images/candles.svg" alt="" width="560" />
+</p>
 
 ## The secret
 
@@ -169,6 +198,12 @@ All 7851 tests passed.
 ## Origins
 
 Evil Hangman began as a summer project by Eddie Ubri Jr, to bring together everything from CMPSC 221 (Object Oriented Programming with Web Applications) in one Java Swing GUI. It has since been rebuilt from the ground up with a new engine, a new look, and sound.
+
+<br />
+
+<p align="center">
+  <img src="docs/images/footer.svg" alt="An empty noose, swaying. He is still waiting." width="520" />
+</p>
 
 <p align="center">
   <sub>Released under the <a href="LICENSE">MIT License</a>.</sub>

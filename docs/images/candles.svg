@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-label="A row of candles going out one by one">
+<defs>
+<linearGradient id="wax" x1="0" x2="1"><stop offset="0" stop-color="#d4caB2"/><stop offset="1" stop-color="#6e6656"/></linearGradient>
+<linearGradient id="flame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fff1c4"/><stop offset=".55" stop-color="#f0a648"/><stop offset="1" stop-color="#d0601e"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#e0a458" stop-opacity=".45"/><stop offset="1" stop-color="#e0a458" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+.lit{animation:out 16s infinite}
+@keyframes out{0%,50%{opacity:1}51.5%,88%{opacity:0}92%,100%{opacity:1}}
+.fl{animation:fl .8s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scale(.9,.94) skewX(-3deg)}to{transform:scale(1.06,1.08) skewX(3deg)}}
+.smoke{opacity:0;animation:smoke 16s infinite}
+@keyframes smoke{0%,51%{opacity:0;transform:translateY(0)}52%{opacity:.55;transform:translateY(0)}64%,100%{opacity:0;transform:translateY(-14px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g>
+  <g class="lit" style="animation-delay:0.00s">
+    <circle cx="202" cy="59" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:202px 67px;animation-duration:0.70s"><path d="M202 67c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:0.00s"><path d="M202 65c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="195" y="69" width="14" height="35" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="197" y="69" width="3.4" height="8" rx="1.7" fill="#cfc5ad"/>
+  <path d="M202 69v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:0.75s">
+    <circle cx="264" cy="51" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:264px 59px;animation-duration:0.83s"><path d="M264 59c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:0.75s"><path d="M264 57c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="257" y="61" width="14" height="43" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="259" y="61" width="3.4" height="11" rx="1.7" fill="#cfc5ad"/>
+  <path d="M264 61v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:1.50s">
+    <circle cx="326" cy="57" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:326px 65px;animation-duration:0.96s"><path d="M326 65c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:1.50s"><path d="M326 63c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="319" y="67" width="14" height="37" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="321" y="67" width="3.4" height="14" rx="1.7" fill="#cfc5ad"/>
+  <path d="M326 67v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:2.25s">
+    <circle cx="388" cy="47" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:388px 55px;animation-duration:1.09s"><path d="M388 55c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:2.25s"><path d="M388 53c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="381" y="57" width="14" height="47" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="383" y="57" width="3.4" height="17" rx="1.7" fill="#cfc5ad"/>
+  <path d="M388 57v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:3.00s">
+    <circle cx="450" cy="51" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:450px 59px;animation-duration:0.70s"><path d="M450 59c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:3.00s"><path d="M450 57c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="443" y="61" width="14" height="43" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="445" y="61" width="3.4" height="8" rx="1.7" fill="#cfc5ad"/>
+  <path d="M450 61v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:3.75s">
+    <circle cx="512" cy="57" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:512px 65px;animation-duration:0.83s"><path d="M512 65c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:3.75s"><path d="M512 63c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="505" y="67" width="14" height="37" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="507" y="67" width="3.4" height="11" rx="1.7" fill="#cfc5ad"/>
+  <path d="M512 67v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:4.50s">
+    <circle cx="574" cy="51" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:574px 59px;animation-duration:0.96s"><path d="M574 59c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:4.50s"><path d="M574 57c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="567" y="61" width="14" height="43" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="569" y="61" width="3.4" height="14" rx="1.7" fill="#cfc5ad"/>
+  <path d="M574 61v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:5.25s">
+    <circle cx="636" cy="55" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:636px 63px;animation-duration:1.09s"><path d="M636 63c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:5.25s"><path d="M636 61c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="629" y="65" width="14" height="39" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="631" y="65" width="3.4" height="17" rx="1.7" fill="#cfc5ad"/>
+  <path d="M636 65v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g><g>
+  <g class="lit" style="animation-delay:6.00s">
+    <circle cx="698" cy="59" r="30" fill="url(#glow)"/>
+    <g class="fl" style="transform-origin:698px 67px;animation-duration:0.70s"><path d="M698 67c-7 -4 -6 -12 0 -20c6 8 7 16 0 20z" fill="url(#flame)"/></g>
+  </g>
+  <g class="smoke" style="animation-delay:6.00s"><path d="M698 65c-5 -8 5 -14 0 -22s5 -14 0 -22" fill="none" stroke="#9a9aa4" stroke-width="2.4" stroke-linecap="round"/></g>
+  <rect x="691" y="69" width="14" height="35" rx="2" fill="url(#wax)" stroke="#000" stroke-opacity=".18"/>
+  <rect x="693" y="69" width="3.4" height="8" rx="1.7" fill="#cfc5ad"/>
+  <path d="M698 69v-4" stroke="#1a1612" stroke-width="1.5"/>
+</g>
+</svg>
